@@ -124,7 +124,7 @@ MEDIA_URL = '/media/'
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'mini_glovo_app.authentication.JWTAuthentication',
-    ],
+    ]
 }
 
 AUTH_SERVICE_URL='http://127.0.0.1:8000'
